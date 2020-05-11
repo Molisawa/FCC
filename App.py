@@ -19,7 +19,7 @@ def opcion1():
 
 
 def opcion2():
-    query = str(input("Ingrese el aidi de la materia: "))
+    query = str(input("Ingrese el ID de la materia: "))
     materia = ""
     index = 0
     for i in materias.col_values(0, 1):
@@ -61,7 +61,7 @@ def opcion3():
 
 
 def opcion4():
-    query = str(input("Ingrese el aidi del profesor: "))
+    query = str(input("Ingrese el ID del profesor: "))
     seccionesMateriasID = []
     seccionesHorariosID = []
     index = 0
